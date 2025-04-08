@@ -1,6 +1,5 @@
     <footer>
-        <p>&copy; 2025 KEA Dev</p>        
+        <p>&copy; 2025 KEA Development</p>
     </footer>
-
 </body>
 </html>

@@ -4,7 +4,7 @@ namespace Core;
 
 class View
 {
-    public static function render(string $view, array $args = []): void 
+    public static function render(string $view, array $args = []): void
     {
         // Extracts the array keys into variables
         extract($args, EXTR_SKIP);
@@ -18,7 +18,7 @@ class View
         if (is_readable($file)) {
             require $file;
         } else {
-            throw new \Exception("View not found: $view");
+            throw new \Exception("File $file not found");
         }
     }
 }
